@@ -4,6 +4,18 @@ Minimal simulation framework to validate **galaxy × FRB-DM** clustering measure
 
 This repository is the first step toward testing whether the **BAO feature can be detected in the free-electron field** using **FRB dispersion measures (DMs)** cross-correlated with galaxy large-scale structure. The current implementation is intentionally simple and focuses on a baseline **validation stage**.
 
+## Installation
+
+```bash
+pip install -e /path/to/frbao/
+```
+
+Dependencies (`cosmoprimo`, `mockfactory`) are from the [cosmodesi](https://github.com/cosmodesi) ecosystem and must be installed separately. At NERSC, source the cosmodesi environment first:
+
+```bash
+source /global/common/software/desi/users/adematti/cosmodesi_environment.sh main
+```
+
 ## Current goal
 
 A sanity-check layer designed to answer one question:
