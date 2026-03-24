@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Vim swap files
+*.swp
+*.swo
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+
+# Claude
+CLAUDE.md
+.claude/
